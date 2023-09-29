@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShop.InventoryManagement
 {
-    public class UnitType
+    public enum UnitType
     {
+        PerItem,
+        PerBox,
+        PerKg
     }
 }
